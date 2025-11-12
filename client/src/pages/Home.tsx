@@ -69,7 +69,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <img src={APP_LOGO} alt="Logo" className="h-12 w-12" />
             <div className="flex flex-col">
-              <span className="text-sm font-bold text-primary">COMUNIDADE</span>
+              <span className="text-sm font-bold text-primaryFont">COMUNIDADE</span>
               <span className="text-lg font-bold text-foreground">HOMENS FORTES</span>
             </div>
           </div>
@@ -95,7 +95,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
               QUEM É O{" "}
-              <span className="text-primary">HOMEM DE VERDADE?</span>
+              <span className="text-primaryFont">HOMEM DE VERDADE?</span>
             </h1>
 
             <p className="text-lg md:text-xl text-foreground/80 mb-8 leading-relaxed">
@@ -123,7 +123,7 @@ export default function Home() {
               </Button>
             </div>
 
-            <p className="text-sm md:text-base text-primary font-bold uppercase tracking-wider">
+            <p className="text-sm md:text-base text-primaryFont font-bold uppercase tracking-wider">
               2026 COMEÇA HOJE
             </p>
             <br />
