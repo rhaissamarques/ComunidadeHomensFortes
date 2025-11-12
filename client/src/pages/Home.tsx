@@ -181,10 +181,10 @@ export default function Home() {
                   className="bg-card rounded-lg p-8 border border-border hover:border-primary/50 transition-all hover:shadow-lg"
                 >
                   <div className="mb-4">
-                    <Icon className="w-12 h-12 text-primary" />
+                    <Icon className="w-12 h-12 text-primaryFont" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">{pillar.title}</h3>
-                  <p className="text-sm text-primary font-semibold mb-4 uppercase">
+                  <p className="text-sm text-primaryFont font-semibold mb-4 uppercase">
                     {pillar.subtitle}
                   </p>
                   <p className="text-foreground/70 leading-relaxed">
@@ -217,7 +217,7 @@ export default function Home() {
               Você vai vencer as batalhas que o mantêm preso. E você vai encontrar força para enfrentar qualquer dificuldade que a vida trouxer.
             </p>
 
-            <p className="text-primary font-bold text-lg">
+            <p className="text-primaryFont font-bold text-lg">
               Mas mais importante que tudo isso: você vai se tornar um Homem de Verdade. Um homem que se respeita. Um homem que respeita a Deus. Um homem que deixa um legado.
             </p>
           </div>
@@ -276,7 +276,7 @@ export default function Home() {
         <div className="container max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-card rounded-lg p-8 border border-border">
-              <p className="text-lg font-bold text-primary mb-4">
+              <p className="text-lg font-bold text-primaryFont mb-4">
                 "A Verdade não é opinião."
               </p>
               <p className="text-foreground/70">
@@ -285,7 +285,7 @@ export default function Home() {
             </div>
 
             <div className="bg-card rounded-lg p-8 border border-border">
-              <p className="text-lg font-bold text-primary mb-4">
+              <p className="text-lg font-bold text-primaryFont mb-4">
                 "Ser forte não é não ter medo."
               </p>
               <p className="text-foreground/70">
@@ -294,7 +294,7 @@ export default function Home() {
             </div>
 
             <div className="bg-card rounded-lg p-8 border border-border">
-              <p className="text-lg font-bold text-primary mb-4">
+              <p className="text-lg font-bold text-primaryFont mb-4">
                 "Seus filhos não precisam de um pai perfeito."
               </p>
               <p className="text-foreground/70">
@@ -303,7 +303,7 @@ export default function Home() {
             </div>
 
             <div className="bg-card rounded-lg p-8 border border-border">
-              <p className="text-lg font-bold text-primary mb-4">
+              <p className="text-lg font-bold text-primaryFont mb-4">
                 "2026 não será diferente porque o calendário mudou."
               </p>
               <p className="text-foreground/70">
