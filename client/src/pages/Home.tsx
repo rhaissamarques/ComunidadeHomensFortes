@@ -8,7 +8,7 @@ export default function Home() {
   const [mostrarBotaoTopo, setMostrarBotaoTopo] = useState(false);
   const whatsappLink = "https://chat.whatsapp.com/JOnOaUzaLlr7XBQQ2WFRdB ";
   const formLink = "https://u6k2l.share.hsforms.com/2uEdwV7t9SfuQniCIv4iKCw"; 
-
+  const aulaGratis = "https://comunidadehomensfortes.com.br/a-primeira-aula"
   // Mostrar botão de voltar ao topo quando rolar a página
   useEffect(() => {
     const handleScroll = () => {
@@ -126,6 +126,15 @@ export default function Home() {
             <p className="text-sm md:text-base text-primary font-bold uppercase tracking-wider">
               2026 COMEÇA HOJE
             </p>
+            <br />
+              <Button
+                asChild
+                size="lg"
+                className="border-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg px-8 py-6"
+              >
+                <a href={aulaGratis} target="_blank" rel="noopener noreferrer">ASSISTIR 1 AULA GRÁTIS</a>
+              </Button>
+            
           </div>
         </div>
       </section>
